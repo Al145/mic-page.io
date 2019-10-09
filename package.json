@@ -2,7 +2,7 @@
   "name": "mic-page.io",
   "version": "1.0.0",
   "description": "- [DEMO](https://al145.github.io/mic-page.io/)",
-  "main": "index.js",
+  "main": "main.js",
   "dependencies": {
     "sweetalert": "^2.1.2"
   },
