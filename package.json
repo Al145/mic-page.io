@@ -1,0 +1,23 @@
+{
+  "name": "mic-page.io",
+  "version": "1.0.0",
+  "description": "- [DEMO](https://al145.github.io/mic-page.io/)",
+  "main": "index.js",
+  "dependencies": {
+    "sweetalert": "^2.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Al145/mic-page.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Al145/mic-page.io/issues"
+  },
+  "homepage": "https://github.com/Al145/mic-page.io#readme"
+}
