@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/normalize.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <title>Page</title>
 </head>
 <body>
@@ -99,8 +100,8 @@
                         </div>
                     </div>
                     <form class="form" method="get">
-                        <input id="man" type="text" placeholder="Имя">
-                        <input id="phone" type="text" placeholder="Телефон">
+                        <input id="man" type="text" placeholder="Имя" maxlength="25">
+                        <input id="phone" type="tel" placeholder="Телефон" maxlength="13">
                         <button id="button" type="button" data-button><span>Заказать</span><br>со скидкой</button>
                     </form>
                     <p class="lost">Осталось <span id="green">10</span> упаковок со скидкой</p>
@@ -312,5 +313,6 @@
 <script src="js/aos.js"></script>
 <script src="js/main.js"></script>
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="js/jquery.maskedinput.min.js"></script>
 </body>
 </html>

@@ -1,12 +1,15 @@
-const orderButton = document.querySelectorAll('[data-button]');
+const orderButton = document.querySelector('[data-button]');
 
-orderButton.forEach(button => {
-    button.addEventListener('click', () => {
+orderButton.addEventListener('click', () => {
         swal({
             title: "Готово!",
             text: "Наш менеджер с Вами свяжеться в ближайшее время!",
             icon: "success",
           });
-    })
+    });
+
+$(function(){
+    $("#phone").mask("8(999) 999-9999");
 });
+
 AOS.init();
